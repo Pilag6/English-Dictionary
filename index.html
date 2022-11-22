@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- Title-->
+        <title>Dictionary App</title>
+        <meta name="description" content="Descripción" />
+
+        <!-- Stylesheets CSS-->
+        <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+        <!------------ Google Font ---------->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <!----------- Font Awesome ---------->
+        <script
+            src="https://kit.fontawesome.com/4ce5221f73.js"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+
+    <body>
+
+        <audio id="sound"></audio>
+        <h1 class="title-h1">English Dictionary with JavaScript</h1>
+        <h4 class="title-h4">By Pila Gonzalez</h4>
+
+        <div class="container">
+
+            <div class="search-box">
+                <input
+                    id="input-word"
+                    type="text"
+                    placeholder="Type the word here..."
+                />
+                <button id="search-btn">Search</button>
+            </div>
+
+            <div class="result"></div>
+
+
+        </div>
+
+        <!-- JavaScript-->
+
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>

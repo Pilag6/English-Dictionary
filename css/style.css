@@ -1,0 +1,130 @@
+:root {
+    --color-1: #7083df;
+    --color-2: #292168;
+    --color-3: #989898;
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    background: radial-gradient(var(--color-1), #051e1f);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.title-h1{
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    width: 90%;
+    height: auto;
+    margin-top: 2rem;
+    font-size: 3rem;
+}
+
+.title-h4{
+    color: #fff;
+    text-align: right;
+    margin: 0 auto;
+    width: 35%;
+    height: auto;
+    margin-top: 2rem;
+}
+
+.container{
+    background: #fff;
+    width: 90vmin;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 5rem 4rem;
+    border-radius: 0.6rem;
+    box-shadow: 
+    inset 8px 8px 18px rgba(184, 176, 216, 0.5),
+    inset -8px -8px 18px rgba(37, 27, 82, 0.2),
+    13px 13px 20px rgba(37, 27, 82, 0.5),
+    -13px -13px 20px rgba(37, 27, 82, 0.3);
+}
+
+.search-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-box input{
+    padding: 5px;
+    width: 70%;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid var(--color-1);
+    color: var(--color-1);
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.search-box button{
+    padding: 1rem 0;
+    width: 25%;
+    background-color: var(--color-1);
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.result{
+    position: relative;
+}
+
+.result h3{
+    font-size: 1.8rem;
+    color: var(--color-2);
+}
+
+.result .word{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.result button{
+    background-color: transparent;
+    color: var(--color-1);
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+}
+
+.result .details{
+    display: flex;
+    gap: 10px;
+    color: var(--color-3);
+    margin: 5px 0 20px 5px;
+    font-size: 1rem;
+}
+
+.word-meaning{
+    color: var(--color-2);
+    font-size: 1.2rem;
+    width: 97%;
+}
+
+.word-example{
+    color: var(--color-2);
+    font-size: 1.2rem;
+    font-style: italic;
+    border-right: 5px solid var(--color-1);
+    border-bottom: 5px solid var(--color-1);
+    padding: 1.2rem;
+    padding: 1.2rem;
+    margin-top: 3rem;
+    width: 95%;
+    text-align: right;
+}
+
+.error {
+    margin-top: 25px;
+}

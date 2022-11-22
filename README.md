@@ -1,3 +1,5 @@
 # English-Dictionary
 
-https://github.com/Pilag6/English-Dictionary
+LINK:
+
+https://pilag6.github.io/English-Dictionary/
